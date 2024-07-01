@@ -1,0 +1,44 @@
+body {
+    padding:0;
+    margin:0; 
+    border:0;
+    height: 100vh;
+}
+
+.grid{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 75vh; 
+    height:75vh;
+    gap:1px;
+    padding:5px;
+    margin-bottom:10px;
+}
+
+.row{
+    flex:1;
+    display:flex;
+    gap:2px;
+}
+
+.box{
+    flex:1;
+    background-color: grey;
+    gap:2px;
+}
+
+button{
+    background-color: white;
+    color:blue;
+    height:50px;
+    width:150px;
+    margin:20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
